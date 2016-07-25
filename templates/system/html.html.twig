@@ -57,7 +57,19 @@
 <!DOCTYPE html>
 <html {{ html_attributes }}>
 <head>
-<head-placeholder token="{{ placeholder_token|raw }}"><title>{{ head_title|safe_join(' | ') }}</title>
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{ head_title|safe_join(' | ') }}</title>
+<meta name="dcterms.title" content="Canberra Web Design and Development Services by Canberra Systems" />
+<meta name="keywords" content="Canberra web development, Canberra web design, Canberra website development, Canberra website design, web development Canberra, web design Canberra, website development Canberra, website design Canberra, Drupal Canberra, Bootstrap Canberra, Drupal 8 Canberra, Bootstrap 3 Canberra, AWS Canberra, Amazon Web Services Canberra" />
+<meta name="dcterms.identifier" content="http://www.canberra.systems" />
+<meta name="dcterms.creator" content="Phil Brown" />
+<meta name="dcterms.description" content="Canberra Systems is a shared personal web development environment." />
+<meta name="dcterms.subject" content="web development canberra;web design canberra;drupal 8 canberra;bootstrap 3 canberra;" />
+<meta name="dcterms.audience" content="Web design and development clients;Web designers and developers" />
+<meta name="dcterms.coverage" content="Canberra, ACT, 2601, Sydney, NSW, Melbourne, Vic." />
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
 <css-placeholder token="{{ placeholder_token|raw }}"><js-placeholder token="{{ placeholder_token|raw }}"></head>
 <body{{ attributes.addClass(body_classes) }}>
 <a href="#main-content" class="visually-hidden focusable skip-link">{{ 'Skip to main content'|t }}</a>
