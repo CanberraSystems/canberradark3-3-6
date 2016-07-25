@@ -6288,6 +6288,7 @@ body {
 
 @media (max-width: 460px) {
   body {
+    background-image: url(metaldark600.jpg);
     padding-top: 35px;
     font-size: 12px;
     line-height: 1.36857143; } }
@@ -6308,8 +6309,8 @@ hr {
 @media (max-width: 460px) {
   .mypic {
     max-width: 33%;
-    padding-left: 5px;
-    padding-bottom: 5px; } }
+    margin-left: 5px;
+    margin-bottom: 5px; } }
 img {
   max-width: 100%; }
 
@@ -6985,7 +6986,7 @@ img {
 .development-page h1 {
   margin: 2px 0px 15px 0px;
   border-bottom: 1px solid #222;
-  font-size: 20px;
+  font-size: 18px;
   background: rgba(57, 57, 57, 0.75);
   background: -moz-linear-gradient(top, rgba(57, 57, 57, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(57, 57, 57, 0.75)), color-stop(100%, rgba(0, 0, 0, 0.75)));
@@ -6995,20 +6996,19 @@ img {
   background: linear-gradient(to bottom, rgba(57, 57, 57, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', endColorstr='#000000', GradientType=0 );
   border-bottom: 1px solid #222;
-  padding: 5px 8px 8px 10px;
+  padding: 7px 8px 8px 10px;
   border-radius: 4px; }
 @media (max-width: 460px) {
   .development-page h1 {
-    font-size: 18px;
-    padding: 7px 8px 8px 10px; } }
+    font-size: 15px;
+    padding: 7px 8px 8px 10px;
+    margin-top: 8px; } }
 .development-page .glyphicon-info-sign {
+  color: #fff;
   opacity: 0.1;
   filter: alpha(opacity=10); }
-@media (max-width: 460px) {
-  .development-page .glyphicon-info-sign {
-    margin-top: -1px; } }
 .development-page .lead {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px; }
 @media (max-width: 460px) {
   .development-page .lead {

@@ -5,11 +5,11 @@
 h1 {
   margin: 2px 0px 15px 0px;
   border-bottom: 1px solid #222;
-  font-size: 20px;
+  font-size: 18px;
 //  font-weight: bold;
   @include black-grade-trs;
   border-bottom: 1px solid #222;
-  padding: 5px 8px 8px 10px; 
+  padding: 7px 8px 8px 10px; 
 //  border-top-right-radius: 4px;
 //  border-bottom-right-radius: 6px;
 //  border-top-left-radius: 4px;
@@ -19,25 +19,27 @@ h1 {
 
 @media (max-width: 460px) {
 h1 {
-  font-size: 18px;
+  font-size: 15px;
   padding: 7px 8px 8px 10px; 
+  margin-top: 8px;
 }
 }
 
 .glyphicon-info-sign {
+  color: #fff;
   opacity: 0.1;
   filter: alpha(opacity=10);
 }
 
 @media (max-width: 460px) {
 .glyphicon-info-sign {
-  margin-top: -1px;
+//  margin-top: -1px;
 
 }
 }
 
 .lead {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
