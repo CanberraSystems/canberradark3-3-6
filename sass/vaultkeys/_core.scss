@@ -1,0 +1,252 @@
+body {
+  background-image: url(metaldark.jpg);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  color: #fff;
+  }
+
+@media (max-width: 460px) {
+  body {
+    padding-top: 35px;
+    }
+}
+
+
+img {
+max-width: 100%;
+}
+
+
+
+.ham-button {
+display: block;
+float: left;
+}
+
+.nav-container {
+margin-top: -15px;
+
+}
+
+.navigation-control {
+@include black-grade-trs;
+padding-top: 15px;
+padding-left: 15px;
+padding-right: 15px;
+border-left: 2px solid #000;
+border-right: 2px solid #333;
+border-bottom: 2px solid #222;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+
+@media (max-width: 460px) {
+  .breadcrumb {
+    font-size: 11px;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+  }
+}
+
+.breadcrumb > .active {
+    font-weight: bold;
+    color: #777;
+}
+
+.content {
+// text-align: center;
+}
+
+.content img {
+// margin: auto;
+}
+ 
+.content .field--name-body {
+//  float: right;
+}
+
+.content .field--name-field-image-style-test {
+ float: right;
+}
+
+@media (max-width: 1280px) {
+.content .field--name-field-image-style-test {
+ float: none;
+// padding-bottom: 10px;
+}
+}
+
+@media (max-width: 1280px) {
+.content .field--name-field-image-style-test img {
+ margin: auto;
+ padding-bottom: 10px;
+}
+}
+
+// @media (max-width: 460px) {
+// .content .field--name-field-image-style-test {
+//  float: none;
+//  margin-bottom: 10px;
+// }
+// }
+
+.content .field--name-field-name-s- {
+font-size: 18px;
+display: block;
+}
+
+@media (max-width: 1280px) {
+  .content .field--name-field-name-s- {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+@media (max-width: 1280px) {
+  .content .field--name-field-surname {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1280px) {
+  .content .field--name-field-maiden-name {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+@media (max-width: 1280px) {
+  .content .field--name-field-family-union {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+@media (max-width: 1280px) {
+  .content .field--name-field-father-s-name {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+@media (max-width: 1280px) {
+  .content .field--name-field-mother-s-name {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+@media (max-width: 1280px) {
+  .content .field--name-field-father-s-surname {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+@media (max-width: 1280px) {
+  .content .field--name-field-mother-s-maiden-name {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.field--type-text-long img {
+padding-right: 10px;
+}
+
+
+
+
+// buttons move to new
+
+.btn-lg {
+  margin-bottom: 1px;
+  border-radius: 10px;
+  border-top: 1px solid #000;
+  border-right: 2px solid #222;
+  border-bottom: 2px solid #222;
+  border-left: 1px solid #000;
+}
+
+.btn-def {
+  font-size: 15px;
+  margin-bottom: 1px;
+  border-radius: 10px;
+  border-top: 1px solid #000;
+  border-right: 2px solid #222;
+  border-bottom: 2px solid #222;
+  border-left: 1px solid #000;
+}
+
+.btn-success {
+background: rgba(0,0,0,0.5);
+background: -moz-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.5)), color-stop(100%, rgba(0,0,0,0.5)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+background: linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+border: 1px solid #000;
+}
+
+.btn-primary {
+color: #fff;
+@include black-grade-fancy;
+border-color: #333;
+
+}
+
+.btn-primary:hover {
+    color: #ccc;
+    @include black-grade-fancy;
+    border-color: #222;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    color: #ccc;
+    background-color: black-grade-trs;
+    border-color: #000;
+}
+
+
+.btn-danger {
+
+background: rgba(248,80,50,0.75);
+background: -moz-linear-gradient(top, rgba(248,80,50,0.75) 0%, rgba(241,111,92,0.75) 0%, rgba(231,56,39,0.75) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,80,50,0.75)), color-stop(0%, rgba(241,111,92,0.75)), color-stop(100%, rgba(231,56,39,0.75)));
+background: -webkit-linear-gradient(top, rgba(248,80,50,0.75) 0%, rgba(241,111,92,0.75) 0%, rgba(231,56,39,0.75) 100%);
+background: -o-linear-gradient(top, rgba(248,80,50,0.75) 0%, rgba(241,111,92,0.75) 0%, rgba(231,56,39,0.75) 100%);
+background: -ms-linear-gradient(top, rgba(248,80,50,0.75) 0%, rgba(241,111,92,0.75) 0%, rgba(231,56,39,0.75) 100%);
+background: linear-gradient(to bottom, rgba(248,80,50,0.75) 0%, rgba(241,111,92,0.75) 0%, rgba(231,56,39,0.75) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=0 );
+
+}
+
+.btn-warning {
+color: #222;
+background: rgba(241,231,103,1);
+background: -moz-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+background: -webkit-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -o-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -ms-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0 );
+}
+
+
+
+/* .head-center {
+  text-align: center;
+//  padding-top: 5px;
+//  padding-bottom: 5px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  background: #337ab7;
+  border-radius: 50px;
+  border: 1px solid #222;
+} */
+

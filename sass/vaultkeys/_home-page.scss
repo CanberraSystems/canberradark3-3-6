@@ -1,0 +1,76 @@
+
+.view-frontpage {
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.home-view-feeds h2 {
+visibility: hidden;
+font-size: 1px;
+color: #fff;
+// font-weight: bold;
+@include black-grade-trs;
+border-bottom: 1px solid #fff;
+padding: 0px;
+margin-bottom: 0px;
+}
+.home-view-feeds h2 a {
+display: block;
+color: #fff;
+}
+
+.home-view-feeds h2 {
+min-height: 1px;
+} 
+
+
+@media (max-width: 800px) {
+  .home-view-feeds h2 {
+  min-height: 1px;
+  }
+}
+@media (max-width: 760px) {
+  .home-view-feeds h2 {
+  padding: 0px;
+  min-height: 1px;
+  max-width: 350px;
+  }
+}
+@media (max-width: 460px) {
+  .home-view-feeds h2 {
+  padding: 0px;
+  min-height: 1px;
+  font-size: 1px;
+  }
+}
+
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #fff;
+    text-decoration: none;
+    @include black-grade-trs;
+    border: 1px solid #222;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #222;
+    cursor: default;
+    @include filter-orange;
+    border-color: #222;
+}
+
+@media (max-width: 460px) {
+  .pagination > li > a, .pagination > li > span {
+  font-size: 10px;
+  }
+}
+
+}
