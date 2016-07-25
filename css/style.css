@@ -6283,12 +6283,14 @@ body {
   background-image: url(metaldark.jpg);
   background-repeat: repeat-x;
   background-attachment: fixed;
-  color: #fff; }
+  color: #fff;
+  line-height: 1.34857143; }
 
 @media (max-width: 460px) {
   body {
     padding-top: 35px;
-    font-size: 12px; } }
+    font-size: 12px;
+    line-height: 1.36857143; } }
 hr {
   opacity: 0.1;
   filter: alpha(opacity=10); }
@@ -6995,13 +6997,24 @@ img {
   border-bottom: 1px solid #222;
   padding: 5px 8px 8px 10px;
   border-radius: 4px; }
+@media (max-width: 460px) {
+  .development-page h1 {
+    font-size: 18px;
+    padding: 7px 8px 8px 10px; } }
+.development-page .glyphicon-info-sign {
+  opacity: 0.1;
+  filter: alpha(opacity=10); }
+@media (max-width: 460px) {
+  .development-page .glyphicon-info-sign {
+    margin-top: -1px; } }
 .development-page .lead {
   font-size: 18px;
   margin-bottom: 10px; }
 @media (max-width: 460px) {
   .development-page .lead {
     font-size: 14px;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px;
+    line-height: 1.33857143; } }
 @media (max-width: 460px) {
   .development-page h4 {
     font-size: 12px;

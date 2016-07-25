@@ -3,12 +3,14 @@ body {
   background-repeat: repeat-x;
   background-attachment: fixed;
   color: #fff;
+  line-height: 1.34857143;
   }
 
 @media (max-width: 460px) {
   body {
     padding-top: 35px;
     font-size: 12px;
+    line-height: 1.36857143;
     }
 }
 
