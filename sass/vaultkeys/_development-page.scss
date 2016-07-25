@@ -3,14 +3,45 @@
 .development-page {
 
 h1 {
-  margin: 0px 0px 10px 0px;
-  padding: 0px 0px 8px 0px;
+  margin: 2px 0px 15px 0px;
   border-bottom: 1px solid #222;
+  font-size: 20px;
+//  font-weight: bold;
+  @include black-grade-trs;
+  border-bottom: 1px solid #222;
+  padding: 5px 8px 8px 10px; 
+//  border-top-right-radius: 4px;
+//  border-bottom-right-radius: 6px;
+//  border-top-left-radius: 4px;
+//  border-bottom-left-radius: 6px; 
+  border-radius: 4px;
 }
 
 .lead {
   font-size: 18px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 460px) {
+.lead {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+}
+
+@media (max-width: 460px) {
+h4 {
+  font-size: 12px;
+  font-weight: bold;
+}
+}
+
+.linkedin {
+  max-width: 50px;
+}
+
+.domain::before {
+  content:"\0040"
 }
 
 

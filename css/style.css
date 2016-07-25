@@ -6287,7 +6287,27 @@ body {
 
 @media (max-width: 460px) {
   body {
-    padding-top: 35px; } }
+    padding-top: 35px;
+    font-size: 12px; } }
+hr {
+  opacity: 0.1;
+  filter: alpha(opacity=10); }
+
+.mypic {
+  max-width: 150px;
+  float: right;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #222;
+  border-radius: 6px; }
+
+@media (max-width: 460px) {
+  .mypic {
+    max-width: 33%;
+    padding-left: 5px;
+    padding-bottom: 5px; } }
 img {
   max-width: 100%; }
 
@@ -6493,6 +6513,9 @@ img {
   font-size: 12px;
   line-height: 20px; }
 
+@media (min-width: 768px) {
+  .navbar-right {
+    padding-right: 15px; } }
 .navbar-text {
   float: left;
   margin-right: 8px;
@@ -6958,9 +6981,32 @@ img {
     font-size: 10px; } }
 
 .development-page h1 {
-  margin: 0px 0px 10px 0px;
-  padding: 0px 0px 8px 0px;
-  border-bottom: 1px solid #222; }
+  margin: 2px 0px 15px 0px;
+  border-bottom: 1px solid #222;
+  font-size: 20px;
+  background: rgba(57, 57, 57, 0.75);
+  background: -moz-linear-gradient(top, rgba(57, 57, 57, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(57, 57, 57, 0.75)), color-stop(100%, rgba(0, 0, 0, 0.75)));
+  background: -webkit-linear-gradient(top, rgba(57, 57, 57, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%);
+  background: -o-linear-gradient(top, rgba(57, 57, 57, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%);
+  background: -ms-linear-gradient(top, rgba(57, 57, 57, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%);
+  background: linear-gradient(to bottom, rgba(57, 57, 57, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', endColorstr='#000000', GradientType=0 );
+  border-bottom: 1px solid #222;
+  padding: 5px 8px 8px 10px;
+  border-radius: 4px; }
 .development-page .lead {
   font-size: 18px;
   margin-bottom: 10px; }
+@media (max-width: 460px) {
+  .development-page .lead {
+    font-size: 14px;
+    margin-bottom: 10px; } }
+@media (max-width: 460px) {
+  .development-page h4 {
+    font-size: 12px;
+    font-weight: bold; } }
+.development-page .linkedin {
+  max-width: 50px; }
+.development-page .domain::before {
+  content: "@"; }

@@ -22,7 +22,18 @@ border-color: transparent;
     padding: 13px 15px 15px 0px;
     font-size: 12px;
     line-height: 20px;
+}
 
+@media (min-width: 768px) { 
+.navbar-right {
+    padding-right: 15px;
+}
+}
+
+@media (min-width: 768px) {
+.navbar-right {
+
+}
 }
 .navbar-btn {
 //    margin-right: 10px;
