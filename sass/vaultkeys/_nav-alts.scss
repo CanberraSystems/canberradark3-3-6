@@ -3,6 +3,24 @@
 border-color: transparent;
 }
 
+.navbar-nav .btn-social img {
+  max-width: 25px;
+  max-height: 25px; 
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.navbar-nav .btn-social-fb img {
+  max-width: 22px;
+  max-height: 22px; 
+  margin: 0px 15px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
 .navbar-nav .glyphicon-menu-hamburger {
 // float: right;
 // padding-top: 3px;
